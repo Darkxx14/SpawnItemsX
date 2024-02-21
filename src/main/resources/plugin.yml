@@ -1,0 +1,10 @@
+name: SpawnItemsX
+version: '${project.version}'
+main: dev.darkxx.spawnitemsx.Main
+author: Darkxx
+api-version: '1.19'
+commands:
+  spawnitems:
+    permission: OP
+    usage: /<command> reload | give <player>
+    description: Xyris W
