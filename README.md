@@ -57,19 +57,4 @@ items:
     right-click-command: settings
 ```
 
-## Compatibility
-
-To maximize the functionality of this plugin, it seamlessly integrates with WorldGuard and Skript. This ensures that your spawn items are not only powerful but also adhere to the rules and restrictions you've set for your server environment.
-
-```java
-on death of a player:
-    execute console command "spawnitems give %victim%"
-on join:
-    execute console command "spawnitems give %player%"
-on region enter:
-  if region is "hub" parsed as region:
-    if player's world is "hub":
-    execute console command "spawnitem give %player%"
-```
-
 A Xyris Plugin
